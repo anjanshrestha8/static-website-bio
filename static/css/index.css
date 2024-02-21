@@ -81,6 +81,10 @@ body{
     max-height: 100%;
 }
 /* End of hero section */
+.about-container{
+    display: flex;
+    
+}
 
 
 
@@ -106,3 +110,11 @@ body{
 .hero-section-container > div:last-child{
     background-color: green;
 } */
+
+.about-container > div:first-child{
+    background-color: red;
+
+}
+.about-container > div:last-child{
+    background-color: green;
+}
