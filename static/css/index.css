@@ -1,0 +1,59 @@
+@import "./reset.css";
+
+:root{
+    --primary-bg-color:#F3C5E6;
+    --secondary-bg-color:#FA8D8D;
+    --primary-font:"Playfair Display";
+    --secondary-font:"Roboto";
+}
+body{
+    background-color:var(--primary-bg-color);
+}
+
+.page-container{
+    max-width: 60rem;
+    margin: 10px auto;
+    background-color: var(--secondary-bg-color);
+    
+}
+/* End of page container */
+.navigation-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.logo{
+    font-family: var(--primary-font);
+}
+.navigation > nav > ul{
+    display: flex;
+}
+
+/* End of navigation container */
+
+
+/* End of navigation section */
+
+
+
+
+/* trash */
+
+
+
+.navigation-container > div:first-child{
+    background-color: red; 
+
+}
+
+.navigation-container > div:last-child{
+    background-color: yellow; 
+
+}
+
+.hero-section-container > div:first-child{
+    background-color: aqua;
+}
+.hero-section-container > div:last-child{
+    background-color: green;
+}
