@@ -5,6 +5,7 @@
     --secondary-bg-color:#FA8D8D;
     --primary-font:"Playfair Display";
     --secondary-font:"Roboto";
+    --primary-font-color:
 }
 body{
     background-color:var(--primary-bg-color);
